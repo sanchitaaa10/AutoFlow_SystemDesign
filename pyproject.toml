@@ -1,0 +1,11 @@
+[project]
+name = "autoflow-system-design"
+version = "1.0.0"
+description = "Python implementation of a workflow automation system for a system design case study."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
